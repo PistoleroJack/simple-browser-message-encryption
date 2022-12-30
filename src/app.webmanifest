@@ -1,0 +1,16 @@
+{
+  "name": "Simple Browser Message Encryption",
+  "short_name": "Encryptor",
+  "description": "Encrypt and decrypt messages using AES-GCM-256.",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "theme_color": "#111111",
+  "background_color": "#111111"
+}
