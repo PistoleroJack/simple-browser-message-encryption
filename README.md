@@ -4,8 +4,10 @@ I built this tool so I could easily send an encrypted message/text via unsafe ch
 
 I always prefer PGP, but that requires technical knowledge from the other person I'm communicating with, and this doesn't.
 
-Uses [Deno](https://deno.land) as a backend (though you could just serve the `src` directory with any other tool).
+## Development
 
-Deploy by pushing to the `main` branch.
+View locally using `deno run --allow-net --allow-read https://deno.land/std@0.197.0/http/file_server.ts src` or `npx servo src`.
 
-View locally using `make start`.
+## Deployment
+
+Just push to the `main` branch.
